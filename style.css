@@ -1,5 +1,15 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: #FC5E55;
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -56,10 +66,7 @@ main {
     flex: 1;
 }
 
-.logo {
-}
-
-nav {
-    text-align: right;
-    text-decoration: none;
+h1 {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
 }
