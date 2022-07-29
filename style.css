@@ -11,6 +11,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .container {
@@ -35,32 +36,37 @@ main {
 }
 
 .cards {
-    background-color: rgb(67, 97, 47);
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
 }
 
 .card1 {
-    background-color: rgb(191, 42, 221);
-    min-height: 300px;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;  
+    background-position: bottom;  
+    min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-    background-color: rgb(173, 88, 190);
-    min-height: 300px;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;  
+    background-position: bottom;  
+    min-height: 250px;
     width: 30%;
 }
 
 .card3 {
-    background-color: rgb(106, 12, 124);
-    min-height: 300px;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;  
+    background-position: bottom;  
+    min-height: 250px;
     width: 30%;
 }
 
 .herobox1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
@@ -70,4 +76,10 @@ main {
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
 }
