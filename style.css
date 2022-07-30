@@ -12,7 +12,16 @@ body {
 a {
     text-decoration: none;
     color: white;
+
+    margin-left: 25px;
+
 }
+
+a:hover {
+    color: rgb(168, 166, 164);
+    text-shadow: #661a16;
+}
+
 
 .container {
     width: 1024px;
